@@ -54,44 +54,37 @@ That is a quick overview of REGEX work and the last bit will be the working part
 ### Anchors
 Two important anchors in REGEX are `^` and `$`, the `^` anchor signifies the begging of a string with the characters of the anchor that follow it or simply the matches the beginning of the input. The `$` signifies a string with the characters that precede it or simply matches the end of a input.
 ### Quantifiers
+Set the range for us to make sure we can get the result we want. simply put they set the limits of the string that we want to match in REGEX. some important ones are: `* + ? {}` the star `*` matches the pattern zero or more times, the `+` matches the pattern one or more times and finally the `?` matches the pattern zero one time which is what we used in our summary to optionally find our last 4 numbers of our zip code. the `{}` matches the string either a specific amount of times that are inside of the brackets. 
 
 ### Grouping Constructs
+grouping constructs are like bracket expressions but cooler and one example `(abc):(xyz)`
+which would search for a string matching exactly abc:xyz. so they are used to look for exactly what you are looking for. 
+
 
 ### Bracket Expressions
-
+As explained earlier in the summary the `[]` square brackets indicate a range of characters inside of the regular expression it can be `[a-z]` or `[0-9]` and we can also combine a range of numbers with an anchor which would give us a range of character's to be excluded in the range. 
 
 ### Character Classes
-. - is the global charchet inside of regular expresions it would find everything 
+`.` - is the global characters inside of regular expressions it would find everything 
 
 
 
 ### The OR Operator
+The or operator is `|` which can be seen as `A|B` which means we either want A OR B we want on or the other. 
 
 ### Flags
-Expression flags changed how the string of text is interpreted and they are written following the closing forward slash of the expression. (ex. /.+/igm ).
+Expression flags changed how the string of text is interpreted and they are written following the closing forward slash of the expression. `/.+/igm `
 
-G - is the global expression flag to find any character's matching that characters entered 
-I - case insetive search cahse where characters would be ignored inside of a search.
-m- multi line search is a multi line input where strings would be treated as multiple lines 
+`G `- is the global expression flag to find any character's matching that characters entered 
+
+`I` - case insensitive search case where characters would be ignored inside of a search.
+
+`m` - multi line search is a multi line input where strings would be treated as multiple lines 
 
 ### Character Escapes
+since a lot of our meta characters are literal characters we need characters breaks which is `\` which makes all meta characters lose their value treating them as normal characters.
 
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 
-## quick notes
-REGEX is a type of search pattern using literal chareters and meta characters. Literal characters are literal numbers or straight up the characters found on your keyboard, while meta characters 
-are literal characters used in combo to mean something or value something else ex- 
-    META characters
-\d can mean any number 0-9
-\w is any letter A-Z, a-z, 0-9
-\s is any white space(space or a tab, line break)
-. is a wildcard, gets all 
-\W anything thats not a word character 
-
-    Quantifiers 
-* 0 or more
-+ 1 or more 
-
-The characters ^ and $ are both considered to be anchors
