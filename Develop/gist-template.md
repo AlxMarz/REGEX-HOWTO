@@ -1,6 +1,4 @@
-# Understanding REGEX or Regular Expressions with Alex M🎉🎉 (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Understanding REGEX or Regular Expressions with Alex M🎉🎉 
 
 Welcome, this is a markdown created with the purpose of explaining how regular expressions or REGEX work and why they are important to programmers. 
 
@@ -8,9 +6,6 @@ A regular expression is a search pattern used to look through a string of text. 
 can be useful is validation, find and replace or simply filters for text that can be tweaked to be specialized or general. Regular expressions use literals which can simply be put as the characters found on your keyboard and Meta characters which are combinations of characters that define the search criteria. REGEX can be very useful to search and filter thought strings of text, in the markdown you will find out how and why there are so important. Lets looks out a REGEX and see how it works.
 
 ## Summary ✨
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
 lets break down this REGEX responsible for finding zip codes like 84094 or 84094-1234:
 
 `
@@ -38,7 +33,7 @@ The first part of this snippet is the `\` which is able to mark the next charact
 Once again we are looking for numbers 0-9 that matches up for times which would be for some zip codes that have more then 5 numbers like 84094-1234 but now there are some characters in there that help us narrow down the last bit of numbers. our parenthesis `()` are a group which is helps us group the final 4 numbers of the zip code. and our `-` finds us the our dash in a longer zip code, the final part would be the question mark `?` which says that we don't need the final 4 numbers in zip code if the previous 5 numbers exists our question mark acts like an option so the last 4 numbers are optional. 
 
 That is a quick overview of REGEX work and the last bit will be the working parts of REGEX that make the magic happen.
-## Table of Contents
+## Table of Contents 🎊
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
@@ -86,5 +81,5 @@ since a lot of our meta characters are literal characters we need characters bre
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+a bootcamp student GitHub - https://github.com/AlxMarz
 
